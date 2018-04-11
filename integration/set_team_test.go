@@ -150,7 +150,7 @@ var _ = Describe("Fly CLI", func() {
 			})
 		})
 
-		XContext("Setting cf auth", func() {
+		Context("Setting cf auth", func() {
 			BeforeEach(func() {
 				cmdParams = []string{"--cf-group", "myorg:myspace"}
 			})
